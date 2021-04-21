@@ -1,0 +1,19 @@
+.checkbox{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.checkbox:checked{
+    appearance: none;
+
+   background: #FFBABA;
+}
+
+.checkbox:focus{
+    outline: red solid 1px;
+}
+
