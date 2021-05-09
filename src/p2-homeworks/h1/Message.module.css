@@ -1,3 +1,42 @@
-.message {
 
+.all {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
 }
+
+.container {
+    border-radius: 10px 10px 10px 0;
+    width: 200px;
+    height: 70px;
+    background-color: rgba(100,100,255,0.3);
+}
+
+.angle{
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgba(100, 100, 255, 0.3) 0);
+}
+
+.name {
+    margin: 10px;
+}
+
+.message {
+    margin: 10px;
+}
+
+.time {
+    vertical-align: sub;
+    margin-left: 70px;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+
